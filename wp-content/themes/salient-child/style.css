@@ -1,0 +1,363 @@
+/*
+Theme Name: Salient Child Theme
+Description: This is a custom child theme for Salient
+Theme URI:   https://themeforest.net/item/salient-responsive-multipurpose-theme/4363266
+Author: ThemeNectar
+Author URI:  https://themeforest.net/user/themenectar
+Template: salient
+Version: 1.0
+*/
+
+/*#header-outer[data-format=centered-menu-under-logo] .span_9 {
+    text-transform: uppercase;
+}
+
+.title-menu  .sf-with-ul{
+	font-size: 18px !important;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: "Playfair Display", serif !important;
+}
+
+.title-menu .sf-with-ul .no-click {
+    pointer-events: none;
+    cursor: default;
+}
+
+.title-service{
+	font-family:"Open Sans";
+	font-size: 16px!important;
+	text-transform:initial;
+}
+
+.nectar-ext-menu-item:not(.style-img-above-text) .menu-title-text{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+}
+
+body:not([data-header-format="left-header"]) #header-outer nav > ul > .megamenu > ul > li > a {
+    font-size: 18px;
+    line-height: 1;
+}
+
+Slider
+.swiper-slide .content {
+	padding: 0 60px;
+}
+
+.slider-box-second .content {
+    padding: 0px 35px 0px 0px;
+    width: 41% !important;
+	text-align: right;
+}
+
+.slider-box-second .content .buttons {
+    justify-content: right;
+}
+
+.slider-box .content{
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .slider-box .content {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1400px){
+	.slider-box-second .content {
+    	padding: 0px 0px 0px 0px;
+		font-size: 13px;
+		line-height: 1.1;
+	}
+}
+
+.ns-heading-el{
+	font-style: italic;
+	font-family: "Playfair Display", serif;
+}
+
+ globales 
+
+.title-corrido h4{
+	font-weight: bold;
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+}
+
+Footer 
+
+.footer-legals {
+    display: flex;
+    justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+}
+
+div#block-10 {
+    text-align: center;
+}
+
+.footer-lbr {
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px){
+	/*.footer-legals{
+		display: block;
+	}
+	.slider-box .content {
+    	padding: 0px 0px 0px 0px;
+		font-size: 13px;
+		line-height: 1.1;
+	}
+	.slider-box .content{
+    	width: 80%;
+	}
+	.slider-box-second .content{
+   	 width: 50%;
+	}
+}*/
+
+#header-outer:not([data-format=left-header]) #top>.container>.row{
+	display: none;
+}
+
+#header-space {
+    display: none;
+}
+
+body[data-hhun="0"] #header-outer[data-header-resize="0"]:not([data-transparent-header=true]) {
+    display: none;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 999px) {
+    #header-space[data-header-mobile-fixed="1"] {
+        display: none;
+    }
+}
+
+#rev_slider_2_1_wrapper{
+	color: #fff;
+}
+
+/* color fonts */
+h2 {
+	color:#2e4659;
+}
+
+h3 {
+	color: #000;
+}
+
+h5 {
+	color:#2e4659;
+}
+
+h4 {
+	color:#000;
+}
+
+a.nectar-button.medium.see-through.extra-color-2.button-class {
+    border-radius: 25px;
+	color: #2e4659 !important;
+	padding: 16px 45px;
+    font-size: 24px;
+}
+
+a.nectar-button.medium.see-through.extra-color-2.button-class-agen {
+    border-radius: 25px;
+	color: #fff !important;
+	padding: 16px 45px;
+    font-size: 24px;
+}
+
+a.nectar-button.medium.see-through.extra-color-2.button-class-reves {
+    border-radius: 25px;
+	color: #fff !important;
+	padding: 12px 35px;
+    font-size: 20px;
+}
+
+a.nectar-button.medium.see-through.extra-color-2.button-class:hover{
+	background-color: #2e4659 !important;
+	color: #fff !important;
+}
+
+a.nectar-button.medium.see-through.extra-color-2.button-class-agen:hover{
+	background-color: #2e4659 !important;
+	color: #fff !important;
+}
+
+a.nectar-button.medium.see-through.extra-color-2.button-class-reves:hover{
+    background-color: #fff !important;
+	color: #2e4659  !important;
+}
+
+.footer-p p{
+	font-size: 16px;
+	line-height:2;
+}
+
+.footer-p h5{
+	font-size: 24px;
+	font-weight:600;
+}
+
+.frase{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 22px;
+}
+
+.positions{
+	position:relative;
+	padding: 20px 40px !important;
+}
+
+.comillas-inicio {
+    display: inline-block;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    font-size: 112px;
+}
+
+.comillas-fin {
+    display: inline-block;
+    transform: scaleX(-1);
+    position: absolute;
+    bottom: -25px;
+    right: 90px;
+    font-size: 112px;
+}
+
+.nectar_icon_wrap[data-style="border-basic"] .nectar_icon{
+	background-color: #fff;
+}
+
+
+@media only screen and (max-width: 999px){
+	.footer-p p{
+		font-size: 14px;
+		line-height:2;
+	}
+	h5{
+		font-size: 20.5px;
+        line-height: 24px;
+	}
+	.positions{
+		position:relative;
+		font-size:36px;
+	}
+	
+	.comillas-inicio {
+    	display: inline-block;
+    	transform: scaleX(-1);
+    	position: absolute;
+    	top: 25px;
+    	left: 2px;
+    	font-size: 85px;
+	}
+	
+	.comillas-fin {
+    	display: inline-block;
+    	transform: scaleX(-1);
+    	position: absolute;
+    	bottom: -15px;
+    	right: 95px;
+    	font-size: 85px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	
+	.comillas-inicio {
+    	display: inline-block;
+    	transform: scaleX(-1);
+    	position: absolute;
+    	top: 25px;
+    	left: 0px;
+
+	}
+	
+	.comillas-fin {
+    	display: inline-block;
+    	transform: scaleX(-1);
+    	position: absolute;
+    	bottom: -15px;
+    	right: 35px;
+	}
+}
+
+@media only screen and (max-width: 690px) {
+	
+	.positions{
+		position:relative;
+		font-size:24px;
+	}
+
+	 .comillas-inicio {
+        display: inline-block;
+        transform: scaleX(-1);
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        font-size: 80px;
+	}
+
+    .comillas-fin {
+        display: inline-block;
+        transform: scaleX(-1);
+        position: absolute;
+        bottom: -10px;
+        right: 5px;
+        font-size: 80px;
+    }
+	
+}
+
+/*.nectar-button .medium .see-through-3  .button-class{
+	border: solid 1px #2e4659 !important;
+	border-radius: 25px !important;
+	color: #2e4659 !important; 
+}*/
+
+/* Landing de prueba css */
+
+:root{
+	--color-negro: #000;
+	--color-blanco: #fff;
+	--color-verde-boton: #52D191;
+	--color-verde-titulos: #A5F090;
+	--color-verde-borde: #85ea69;
+	--color-verde-boton-herramienta:#28a745;
+	--color-gris: #999999;
+}
+
+.parrafos-landing{
+	font-family: "Open Sans", sans-serif;
+	color: var(--color-gris);
+	line-height: 1.6;
+}
+
+.titulo-h2:{
+	font-family: 'Playfair Display', serif !important;
+	color: var(--color-negro);
+}
+
+.titulo-h3:{
+	font-family: 'Roboto', serif !important;
+	color: var(--color-negro);
+}
+
+.lbr-boton{
+	font-family: 'Roboto', serif !important;
+	background-color: var(--color-verde-boton) !important;
+	color: var(--color-blanco);
+}
